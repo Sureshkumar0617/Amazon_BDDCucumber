@@ -1,0 +1,10 @@
+Mar 28, 2023 11:37:17 PM com.qa.util.Loggers configureLoggerSystem
+INFO: *************************************The Execution is started********************************************************
+Mar 28, 2023 11:37:20 PM com.qa.util.Loggers setLoggerInfo
+INFO: Click on Sign
+Mar 28, 2023 11:37:21 PM com.qa.util.Loggers setLoggerInfo
+INFO: Enter Username
+Mar 28, 2023 11:37:25 PM com.qa.util.Loggers setLoggerInfo
+INFO: Click continue
+Mar 28, 2023 11:37:27 PM com.qa.util.Loggers setLoggerInfo
+INFO: Enter Password

@@ -1,0 +1,2 @@
+file:src/test/resources/parallel/Login.feature:3
+file:src/test/resources/parallel/AmazonProducttoCart.feature:4

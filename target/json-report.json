@@ -1,0 +1,91 @@
+
+Scenario: Adding product to the cart and validating accordingly                                  [90m# src/test/resources/parallel/AmazonProduct.feature:2[0m
+  [32mGiven [0m[32muser is on application[0m                                                                   [90m# parallel.AmazonProductStep_Definition.user_is_on_application()[0m
+
+    Embedding anyname [image/png 785761 bytes]
+
+  [32mThen [0m[32muser search the product [0m[32m[1m"Amazon Essentials Women's Digital Chronograph Resin Strap Watch"[0m [90m# parallel.AmazonProductStep_Definition.user_search_the_product(java.lang.String)[0m
+
+    Embedding anyname [image/png 411988 bytes]
+
+  [32mThen [0m[32mproduct add to the cart[0m                                                                   [90m# parallel.AmazonProductStep_Definition.product_add_to_the_cart()[0m
+
+    Embedding anyname [image/png 247917 bytes]
+
+  [32mAnd [0m[32muser validates the product with quantity [0m[32m[1m"1"[0m[32m in the cart[0m                                   [90m# parallel.AmazonProductStep_Definition.user_validates_the_product_with_quantity_in_the_cart(java.lang.String)[0m
+
+    Embedding anyname [image/png 247995 bytes]
+
+  [32mThen [0m[32muser search the product [0m[32m[1m"Mouse"[0m                                                           [90m# parallel.AmazonProductStep_Definition.user_search_the_product(java.lang.String)[0m
+
+    Embedding anyname [image/png 449993 bytes]
+
+  [32mAnd [0m[32mincrease the quantity of the product by [0m[32m[1m2[0m[32m in cart[0m                                          [90m# parallel.AmazonProductStep_Definition.increase_the_quantity_of_the_product_by_in_cart(java.lang.Integer)[0m
+
+    Embedding anyname [image/png 433454 bytes]
+
+  [32mThen [0m[32mproduct add to the cart[0m                                                                   [90m# parallel.AmazonProductStep_Definition.product_add_to_the_cart()[0m
+
+    Embedding anyname [image/png 242484 bytes]
+
+  [32mAnd [0m[32muser validates the product with quantity [0m[32m[1m"2"[0m[32m in the cart[0m                                   [90m# parallel.AmazonProductStep_Definition.user_validates_the_product_with_quantity_in_the_cart(java.lang.String)[0m
+
+    Embedding anyname [image/png 242517 bytes]
+
+  [32mThen [0m[32muser search the product [0m[32m[1m"Apple AirTag Leather Key Ring - California Poppy"[0m                [90m# parallel.AmazonProductStep_Definition.user_search_the_product(java.lang.String)[0m
+
+    Embedding anyname [image/png 534524 bytes]
+
+  [32mThen [0m[32mproduct add to the cart[0m                                                                   [90m# parallel.AmazonProductStep_Definition.product_add_to_the_cart()[0m
+
+    Embedding anyname [image/png 270052 bytes]
+
+  [32mAnd [0m[32muser validates the product with quantity [0m[32m[1m"1"[0m[32m in the cart[0m                                   [90m# parallel.AmazonProductStep_Definition.user_validates_the_product_with_quantity_in_the_cart(java.lang.String)[0m
+
+    Embedding anyname [image/png 270098 bytes]
+
+  [32mThen [0m[32muser deletes the product [0m[32m[1m"Apple AirTag Leather Key Ring - California Poppy"[0m               [90m# parallel.AmazonProductStep_Definition.user_deletes_the_product(java.lang.String)[0m
+
+    Embedding anyname [image/png 220011 bytes]
+
+  [32mThen [0m[32muser search the product [0m[32m[1m"office chair"[0m                                                    [90m# parallel.AmazonProductStep_Definition.user_search_the_product(java.lang.String)[0m
+
+    Embedding anyname [image/png 522514 bytes]
+
+  [32mThen [0m[32mproduct add to the cart[0m                                                                   [90m# parallel.AmazonProductStep_Definition.product_add_to_the_cart()[0m
+
+    Embedding anyname [image/png 329780 bytes]
+
+  [32mThen [0m[32mnavigate to cart and validate the save later functionality[0m                                [90m# parallel.AmazonProductStep_Definition.navigate_to_cart_and_validate_the_save_later_functionality()[0m
+
+    Embedding anyname [image/png 244783 bytes]
+
+
+Scenario: Customer login to the app and validate Forgot Password Link [90m# src/test/resources/parallel/Login.feature:3[0m
+  [32mGiven [0m[32muser is on login page[0m                                         [90m# parallel.LoginStepDefinition.user_is_on_login_page()[0m
+
+    Embedding anyname [image/png 70840 bytes]
+
+  [32mWhen [0m[32muser enter Username[0m                                            [90m# parallel.LoginStepDefinition.user_enter_username()[0m
+
+    Embedding anyname [image/png 72345 bytes]
+
+  [32mAnd [0m[32muser enter Password[0m                                             [90m# parallel.LoginStepDefinition.user_enter_password()[0m
+
+    Embedding anyname [image/png 72653 bytes]
+
+  [31mThen [0m[31mforgot your password link should be displayed[0m                  [90m# parallel.LoginStepDefinition.forgot_your_password_link_should_be_displayed()[0m
+      [31mjava.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertFalse(Assert.java:78)
+	at org.testng.Assert.assertFalse(Assert.java:88)
+	at parallel.LoginStepDefinition.forgot_your_password_link_should_be_displayed(LoginStepDefinition.java:62)
+	at ✽.forgot your password link should be displayed(file:///C:/Users/HP/Downloads/fwdsureshkumardocument/Amazon_Cucumber/src/test/resources/parallel/Login.feature:7)
+[0m
+
+    Embedding anyname [image/png 72791 bytes]
+
+
+    Embedding Customer_login_to_the_app_and_validate_Forgot_Password_Link [image/png 72767 bytes]
+

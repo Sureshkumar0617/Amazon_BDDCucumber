@@ -1,0 +1,4 @@
+$(document).ready(function() {
+CucumberHTML.timelineItems.pushArray([{"id":"9ffd625c-9cd7-46ce-a9d2-fe8c307b20b2","feature":"Login Page Feature","scenario":"Customer login to the app and validate Forgot Password Link","start":1680028522453,"group":1,"content":"","tags":"","end":1680028535596,"className":"failed"},{"id":"1c7b8526-a027-4b3a-9eea-b32a97446772","feature":"Search product and select and add to cart with other functionalities","scenario":"Adding product to the cart and validating accordingly","start":1680028311394,"group":1,"content":"","tags":"","end":1680028522438,"className":"passed"}]);
+CucumberHTML.timelineGroups.pushArray([{"id":1,"content":"Thread[main,5,main]"}]);
+});

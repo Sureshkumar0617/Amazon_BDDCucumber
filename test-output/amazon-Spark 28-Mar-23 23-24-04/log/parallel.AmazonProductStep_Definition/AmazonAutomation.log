@@ -1,0 +1,36 @@
+Mar 28, 2023 11:24:12 PM com.qa.util.Loggers configureLoggerSystem
+INFO: *************************************The Execution is started********************************************************
+Mar 28, 2023 11:24:16 PM com.qa.util.Loggers setLoggerInfo
+INFO: Change Pincode
+Mar 28, 2023 11:24:19 PM com.qa.util.Loggers setLoggerInfo
+INFO: Enter Pincode
+Mar 28, 2023 11:24:27 PM com.qa.util.Loggers setLoggerInfo
+INFO: Apply pincode
+Mar 28, 2023 11:24:48 PM com.qa.util.Loggers setLoggerInfo
+INFO: Search products
+Mar 28, 2023 11:25:12 PM com.qa.util.Loggers setLoggerInfo
+INFO: Navigate to product
+Mar 28, 2023 11:25:15 PM com.qa.util.Loggers setLoggerInfo
+INFO: validate cart
+Mar 28, 2023 11:25:35 PM com.qa.util.Loggers setLoggerInfo
+INFO: Search products
+Mar 28, 2023 11:25:38 PM com.qa.util.Loggers setLoggerInfo
+INFO: Input quantity
+Mar 28, 2023 11:25:58 PM com.qa.util.Loggers setLoggerInfo
+INFO: Navigate to product
+Mar 28, 2023 11:26:02 PM com.qa.util.Loggers setLoggerInfo
+INFO: validate cart
+Mar 28, 2023 11:26:22 PM com.qa.util.Loggers setLoggerInfo
+INFO: Search products
+Mar 28, 2023 11:26:43 PM com.qa.util.Loggers setLoggerInfo
+INFO: Navigate to product
+Mar 28, 2023 11:26:46 PM com.qa.util.Loggers setLoggerInfo
+INFO: validate cart
+Mar 28, 2023 11:26:50 PM com.qa.util.Loggers setLoggerInfo
+INFO: delete product
+Mar 28, 2023 11:27:10 PM com.qa.util.Loggers setLoggerInfo
+INFO: Search products
+Mar 28, 2023 11:27:31 PM com.qa.util.Loggers setLoggerInfo
+INFO: Navigate to product
+Mar 28, 2023 11:27:36 PM com.qa.util.Loggers setLoggerInfo
+INFO: save for later
