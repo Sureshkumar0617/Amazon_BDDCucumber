@@ -1,0 +1,4 @@
+$(document).ready(function() {
+CucumberHTML.timelineItems.pushArray([{"id":"030dfe6f-1ad7-489b-a54f-89069fa43c56","feature":"Search product and select and add to cart with other functionalities","scenario":"Adding product to the cart and validating accordingly chrome","start":1680540926791,"group":1,"content":"","tags":"","end":1680541166725,"className":"passed"},{"id":"03c7aa7c-e972-4f61-bfcc-c74d071b0b0c","feature":"Login for Amazon website","scenario":"Verify the Account for amazon chrome","start":1680541179769,"group":1,"content":"","tags":"","end":1680541193857,"className":"passed"},{"id":"c133a340-0f45-4821-b988-f47e18bdaf2e","feature":"Login Page Feature","scenario":"Customer login to the app and validate Forgot Password Link chrome","start":1680541166756,"group":1,"content":"","tags":"","end":1680541179753,"className":"failed"}]);
+CucumberHTML.timelineGroups.pushArray([{"id":1,"content":"Thread[main,5,main]"}]);
+});

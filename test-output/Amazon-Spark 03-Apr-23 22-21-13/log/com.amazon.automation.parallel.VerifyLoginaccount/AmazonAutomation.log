@@ -1,0 +1,18 @@
+Apr 03, 2023 10:21:21 PM com.amazon.automation.util.Loggers configureLoggerSystem
+INFO: *************************************The Execution is started********************************************************
+Apr 03, 2023 10:21:21 PM com.amazon.automation.util.ConfigReader initprop
+INFO: Log information from config reader file java.io.FileInputStream@2ee39e73
+Apr 03, 2023 10:21:26 PM com.amazon.automation.util.Loggers setLoggerInfo
+INFO: Launching the URL
+Apr 03, 2023 10:21:28 PM com.amazon.automation.util.Loggers setLoggerInfo
+INFO: ClickonSigin
+Apr 03, 2023 10:21:29 PM com.amazon.automation.util.Loggers setLoggerInfo
+INFO: Clickcreateaccount
+Apr 03, 2023 10:21:30 PM com.amazon.automation.util.Loggers setLoggerInfo
+INFO: Clickconitnue
+Apr 03, 2023 10:21:30 PM com.amazon.automation.util.Loggers setLoggerInfo
+INFO: Enter your name
+Apr 03, 2023 10:21:31 PM com.amazon.automation.util.Loggers setLoggerInfo
+INFO: Enter your email or mobile phone number
+Apr 03, 2023 10:21:31 PM com.amazon.automation.util.Loggers setLoggerInfo
+INFO: Minimum 6 characters required
